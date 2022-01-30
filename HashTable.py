@@ -21,3 +21,7 @@ class HashTable:
     def __setitem__(self, key, val):
         h = self.get_hash(key)
         self.arr[h] = val
+
+
+
+
